@@ -1,10 +1,10 @@
-.for_image{
+.for_image {
     background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
     height: 400px;
     background-position: center;
-    width:700px;
-    margin-left: 220px;
-
+    background-size: cover;
+    width: 700px;
+    margin: 0 auto; /* Center horizontally */
 }
 
 .container{
@@ -40,3 +40,21 @@ font-size: 30px;
 button a {
     color: white;
    }
+
+
+
+
+
+    @media (max-width: 600px) {
+        .for_image {
+            height: 250px;
+            width: 100%;
+            max-width: 100%;
+            margin: 0 auto;
+        }
+    }
+    
+
+
+    
+   
